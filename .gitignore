@@ -130,5 +130,5 @@ dist
 .pnp.*
 
 #Mongo-Docker
-monog
-
+monogo
+postgres
