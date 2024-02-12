@@ -7,7 +7,6 @@ import { SeedModule } from './seed/seed.module';
 import { FilesModule } from './files/files.module';
 import { ServeStaticModule } from '@nestjs/serve-static';
 import { join } from 'path';
-import { UnestModule } from './g/unest/unest.module';
 
 @Module({
   imports: [
@@ -31,7 +30,6 @@ import { UnestModule } from './g/unest/unest.module';
     CommonModule,
     SeedModule,
     FilesModule,
-    UnestModule,
   ],
   controllers: [],
   providers: [],
