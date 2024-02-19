@@ -138,7 +138,7 @@ export class ProductsService {
       throw new BadRequestException(error.detail);
     }
     this.logger.error(error);
-    throw new InternalServerErrorException('EUnexpected error, check server logs');
+    throw new InternalServerErrorException('Unexpected error, check server logs');
   }
 
 
